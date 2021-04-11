@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <div>
+    <div class="flex-container">
         <header>
             <div class="gmail">
-                <a href="#">Gmail</a>
+                <a href="#" id="mail">Gmail</a>
             </div>
 
             <div class="images">
-                <a href="#">Images</a>
+                <a href="#" id="img">Images</a>
             </div>
 
             <div class="apps"></div>
@@ -25,38 +25,42 @@
             <div class="account"></div>
         </header>
 
-        <div class="logo">
-            <img src="https://bit.ly/39UPFjN">
+        <div class="main">
+            <div class="logo">
+                <img src="https://bit.ly/39UPFjN">
+            </div>
+
+            <div class="search">
+                <form class="search-bar">
+                    
+                    <input type="text" id="search">
+                </form>
+                <div class="buttons">
+                    <button class="google-search">Google Search</button>
+                    <button class="feeling-lucky">I'm Feeling Lucky</button>
+                </div>
+                <div class="languages">
+                    <p>Google offerd in: <a href="#" class="lng">Romana</a> <a href="#" class="lng">magyar</a> <a href="#" class="lng">Deutsch</a>
+                </div>
+            </div>
         </div>
 
-        <div class="search">
-            <form class="search-bar">
-                <input type="text" id="search">
-            </form>
-            <div class="buttons">
-                <button class="google-search">Google Search</button>
-                <button class="feeling-lucky">I'm Feeling Lucky</button>
-            </div>
-            <div class="languages">
-                <p>Google offerd in: <a href="#">Romana</a> <a href="#">magyar</a> <a href="#">Deutsch</a>
-            </div>
-        </div>
 
         <footer>
             <div class="country">
-                <h4>Romania</h4>
+                <p id="ro">Romania</p>
             </div>
             <div class="links">
                 <div class="left">
-                    <a href="#" id="link-color">About</a>
-                    <a href="#" id="link-color">Advertising</a>
-                    <a href="#" id="link-color">Business</a>
-                    <a href="#" id="link-color">How Search Works</a>
+                    <a href="#" id="link-style">About</a>
+                    <a href="#" id="link-style">Advertising</a>
+                    <a href="#" id="link-style">Business</a>
+                    <a href="#" id="link-style">How Search Works</a>
                 </div>
                 <div class="right">
-                    <a href="#" id="link-color">Privacy</a>
-                    <a href="#" id="link-color">Terms</a>
-                    <a href="#" id="link-color">Settings</a>
+                    <a href="#" id="link-style">Privacy</a>
+                    <a href="#" id="link-style">Terms</a>
+                    <a href="#" id="link-style">Settings</a>
                 </div>
             </div>
         </footer>
