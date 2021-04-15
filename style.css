@@ -88,6 +88,10 @@ body {
     width: 150px;
 }
 
+.google-search:hover {
+    box-shadow: 2px 2px 3px 2px #dfe1e5;
+}
+
 .feeling-lucky {
     color: #4a4e51;
     background-color: #f8f9fa;
@@ -96,6 +100,10 @@ body {
     cursor: pointer;
     margin-left: 10px;
     width: 150px;
+}
+
+.feeling-lucky:hover {
+    box-shadow: 2px 2px 3px 2px #dfe1e5;
 }
 
 .languages {
@@ -109,6 +117,10 @@ body {
     text-decoration: none;
     color: #1c0fab;
     margin: 3px;
+}
+
+.lng:hover {
+    text-decoration: underline;
 }
 
 header {
@@ -136,6 +148,10 @@ header {
     color: #212121;
 }
 
+#mail:hover {
+    text-decoration: underline;
+}
+
 .images {
     width: 50px;
     height: 50px;
@@ -151,6 +167,10 @@ header {
     color: #212121;
 }
 
+#img:hover {
+    text-decoration: underline;
+}
+
 .apps {
     display: flex;
     justify-content: center;
@@ -160,7 +180,7 @@ header {
     height: 50px;
     border-radius: 50%;
     margin: 5px;
-    
+    text-decoration: none;
     
 }
 
@@ -171,6 +191,7 @@ header {
 .apps > i {
     color: #72777c;
     font-size: 30px;
+    
 }
 
 .account {
@@ -201,6 +222,7 @@ header {
 .circle > p {
     color: white;
     font-size: 20px;
+    text-decoration: none;
 }
 
 footer {
@@ -231,4 +253,8 @@ footer {
     color: #757575;
     text-decoration: none;
     padding: 9px;
+}
+
+#link-style:hover {
+    text-decoration: underline;
 }
